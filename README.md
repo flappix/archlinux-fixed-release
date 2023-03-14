@@ -1,7 +1,7 @@
 # archlinux-fixed-release
 Enable fixed release for ArchLinux
 
-You are sick of of the following experince? 
+You are sick of of the following experience? 
 <pre>
 <b>></b> pacman -S <b>tinysoftware</b>
      ...
