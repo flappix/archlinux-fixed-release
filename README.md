@@ -25,8 +25,8 @@ Here is how to turn your beloved ArchLinux into a fixed release system.
 
 ## Installation 
 
-1. Place pacman-fixed-release-upgrade.sh in ```/usr/bin```
+1. Place (https://github.com/flappix/archlinux-fixed-release/blob/main/pacman-upgrade.sh)[pacman-upgrade.sh] in ```/usr/bin```
 2. Backup your ```/etc/pacman.d/mirrorlist``` in case you want to switch back to rolling release later
-3. Call ```pacman-fixed-release-upgrade.sh``` as root. This will upgrade your system.
+3. Call ```pacman-upgrade.sh``` as root. This will upgrade your system.
 
-From now on simply use ```pacman -S``` to install new software packages like you normally do. If you activley want to upgrade your system use ```pacman-fixed-release-upgrade.sh``` instead of ```pacman -Syu```
+From now on simply use ```pacman -S``` to install new software packages like you normally do. If you activley want to upgrade your system use ```pacman-upgrade.sh``` instead of ```pacman -Syu```
