@@ -10,7 +10,7 @@ Total Installed Size:  <b>0.10 MiB</b>
 
 :: Proceed with installation? [Y/n] Y
 :: Retrieving packages...
-error: failed retrieving file 'tinysoftware.1-1-x86_64.pkg.tar.zst' from archlinux.mailtunnel.eu : The requested URL returned error: 404
+error: failed retrieving file 'tinysoftware-1.0-x86_64.pkg.tar.zst' from archlinux.mailtunnel.eu : The requested URL returned error: 404
 Errors occurred, no packages were upgraded.
 <b>></b>
 <b>></b> pacman -Syu
