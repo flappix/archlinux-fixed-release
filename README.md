@@ -30,7 +30,7 @@ Just call the script [pacman-upgrade.sh](https://github.com/flappix/archlinux-fi
 ## Usage
 
 From now on simply use ```pacman -S``` to install new software packages like you normally do.  
-If you activley want to upgrade your system use [pacman-upgrade.sh](https://github.com/flappix/archlinux-fixed-release/blob/main/pacman-upgrade.sh) instead of ```pacman -Syu```.
+If you activley want to upgrade your system use [pacman-upgrade.sh](https://github.com/flappix/archlinux-fixed-release/blob/main/pacman-upgrade.sh) instead of ```pacman -Syu```.  
 To switch back to rolling release, simply restore your /etc/pacman.d/mirrorlist
 ```
 > cp /etc/pacman.d/mirrorlist.backup-<timestamp> /etc/pacman.d/mirrorlist
