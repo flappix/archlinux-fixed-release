@@ -8,6 +8,8 @@ if [ $? != 0 ]; then
 	exit
 fi
 last=$(date -d @$time_last_update "+%Y/%m/%d")
+
+cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup-$(date "+%s")
 echo "Server = $mirror/$last/\$repo/os/\$arch" > /etc/pacman.d/mirrorlist
 
 pacman -Syu
